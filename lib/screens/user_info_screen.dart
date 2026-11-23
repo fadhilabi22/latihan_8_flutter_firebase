@@ -16,7 +16,7 @@ class UserInfoScreen extends StatelessWidget {
         title: const Text("Dashboard User"),
         actions: [
           IconButton(
-            icon: const Icon(Icons.logout),
+            icon: const Icon(Icons.exit_to_app),
             onPressed: _logout,
             tooltip: "Logout",
           ),

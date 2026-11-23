@@ -57,10 +57,10 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(Icons.account_circle, size: 100,),
+              const Icon(Icons.people, size: 100,),
               const SizedBox(height: 24,),
               const Text(
-                "Selamat Datang",
+                "Halo, Selamat Datang",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               TextField(
