@@ -4,8 +4,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:latihan_flutter_per8/fcm_token_card.dart';
 import 'package:latihan_flutter_per8/firebase_options.dart';
+import 'package:latihan_flutter_per8/screens/notification_detail_screen.dart';
 
 
 /// Kunci global Navigator, supaya kita bisa pindah halaman
